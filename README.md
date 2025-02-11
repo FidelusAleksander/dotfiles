@@ -13,6 +13,10 @@ This repository contains configuration files for setting up a new MacBook. Follo
     ```sh
     brew install git
     ```
+3. **Install fzf**: fzf is a command-line fuzzy finder. You can install it using Homebrew:
+    ```sh
+    brew install fzf
+    ```
 
 ## Setup Instructions
 
