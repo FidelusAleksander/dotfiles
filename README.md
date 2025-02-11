@@ -30,3 +30,11 @@ This repository contains configuration files for setting up a new MacBook. Follo
     ```
 
 
+# Resources:
+
+## zsh
+
+https://youtu.be/ud7YxC33Z3w?si=6ZJo6Ks8VdOZ-U1-
+
+## dotfiles
+https://www.youtube.com/watch?v=r_MpUP6aKiQ&t=348s&ab_channel=Fireship
