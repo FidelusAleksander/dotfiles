@@ -5,6 +5,11 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+# Install antigen conditionally if its not installed
+if [[ ! -f ~/antigen.zsh ]]; then
+  curl -L git.io/antigen > ~/antigen.zsh
+fi
+
 # Use antigen for managing plugins https://github.com/zsh-users/antigen
 source ~/antigen.zsh
 
