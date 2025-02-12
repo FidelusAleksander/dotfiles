@@ -9,13 +9,11 @@ This repository contains configuration files for setting up a new MacBook. Follo
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
 
-2. **Install Git**: If Git is not already installed, you can install it using Homebrew:
+2. **Install packages**:
     ```sh
     brew install git
-    ```
-3. **Install fzf**: fzf is a command-line fuzzy finder. You can install it using Homebrew:
-    ```sh
     brew install fzf
+    brew install pyenv
     ```
 
 ## Setup Instructions

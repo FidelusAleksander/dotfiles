@@ -34,8 +34,12 @@ antigen apply
 # Set up fzf key bindings and fuzzy completion https://github.com/junegunn/fzf#setting-up-shell-integration
 source <(fzf --zsh)
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+# Run powerlevel10k theme. To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+
+# Pyenv https://github.com/pyenv/pyenv?tab=readme-ov-file#b-set-up-your-shell-environment-for-pyenv
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init - zsh)"
+
