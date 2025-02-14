@@ -50,3 +50,9 @@ This repository contains configuration files for setting up a new MacBook. Follo
 ## dotfiles
 
 <https://www.youtube.com/watch?v=r_MpUP6aKiQ&t=348s&ab_channel=Fireship>
+
+
+## Ideas
+
+Maybe look at <https://github.com/MikeMcQuaid/strap>
+Cool things like using touch id for sudo
