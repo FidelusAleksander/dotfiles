@@ -32,7 +32,9 @@ antigen theme romkatv/powerlevel10k
 antigen apply
 
 # Set up fzf key bindings and fuzzy completion https://github.com/junegunn/fzf#setting-up-shell-integration
-source <(fzf --zsh)
+if command -v fzf >/dev/null 2>&1; then
+  source <(fzf --zsh)
+fi
 
 # Run powerlevel10k theme. To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
