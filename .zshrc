@@ -50,3 +50,8 @@ if [[ -d "$HOME/.pyenv" ]]; then
   eval "$(pyenv init - zsh)"
 fi
 
+# Source nvm
+if [[ -s "$HOME/.nvm/nvm.sh" ]]; then
+  export NVM_DIR="$HOME/.nvm"
+  source "$NVM_DIR/nvm.sh"
+fi
