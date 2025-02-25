@@ -13,6 +13,7 @@ cask "stats" # System monitoring
 cask "visual-studio-code"
 cask "shottr"   # Screenshot utility
 cask "rectangle" # Window manager
+cask "scroll-reverser" # To allow for natural scrolling on trackpad, but not on mouse
 
 
 # VS Code Extensions
