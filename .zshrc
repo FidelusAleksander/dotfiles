@@ -47,11 +47,6 @@ if [[ -d "$HOME/.pyenv" ]]; then
   eval "$(pyenv init - zsh)"
 fi
 
-# Install NVM if not installed(Node Version Manager) https://github.com/nvm-sh/nvm
-if [[ ! -d "$HOME/.nvm" ]]; then
-  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
-fi
-
 # Load NVM
 if [[ -s "$HOME/.nvm/nvm.sh" ]]; then
   export NVM_DIR="$HOME/.nvm"
