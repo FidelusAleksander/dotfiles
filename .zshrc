@@ -40,12 +40,7 @@ fi
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 
-# Install NVM if not installed(Node Version Manager) https://github.com/nvm-sh/nvm
-if [[ ! -d "$HOME/.nvm" ]]; then
-  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
-fi
-
-# Load NVM
+# Load NVM if installed
 if [[ -s "$HOME/.nvm/nvm.sh" ]]; then
   export NVM_DIR="$HOME/.nvm"
   source "$NVM_DIR/nvm.sh"
