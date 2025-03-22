@@ -5,7 +5,7 @@ tap "homebrew/bundle"
 brew "fzf" # Fuzzy finder
 brew "gh" # GitHub CLI
 brew "git" # Git
-brew "pyenv" # Python version manager
+brew "uv" # Python version and package manager
 brew "tfenv" # Terraform version manager
 
 cask "aldente" # Battery management
