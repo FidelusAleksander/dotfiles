@@ -7,6 +7,9 @@ brew "gh" # GitHub CLI
 brew "git" # Git
 brew "uv" # Python version and package manager
 brew "tfenv" # Terraform version manager
+brew "gpg2" # GPG
+brew "gnupg" # GPG
+brew "pinentry-mac"
 
 cask "aldente" # Battery management
 cask "stats" # System monitoring
