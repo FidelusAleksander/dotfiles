@@ -45,3 +45,9 @@ if [[ -s "$HOME/.nvm/nvm.sh" ]]; then
   export NVM_DIR="$HOME/.nvm"
   source "$NVM_DIR/nvm.sh"
 fi
+
+# https://gist.github.com/troyfontaine/18c9146295168ee9ca2b30c00bd1b41e
+if [[ -d "$HOME/.gnupg" ]]; then
+  export GPG_TTY=$(tty)
+fi
+
