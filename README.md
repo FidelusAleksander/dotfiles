@@ -33,12 +33,13 @@ This repository contains configuration files for setting up a new MacBook. Follo
 
 3. **Symlink Configuration Files**: Create symbolic links for the configuration files in your home directory:
 
+
     ```sh
-    ln -s ~/dotfiles/.zshrc ~/.zshrc
+    ln -s .zshrc ~/.zshrc
     ```
 
     ```sh
-    ln -s ~/dotfiles/.p10k.zsh ~/.p10k.zsh
+    ln -s .p10k.zsh ~/.p10k.zsh
     ```
 
 ## Learn more
