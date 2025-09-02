@@ -35,12 +35,13 @@ antigen apply
 if [[ -d "$HOME/.fzf" ]]; then
   # Add fzf to PATH
   export PATH="$HOME/.fzf/bin:$PATH"
-  
+
   # Set up fzf key bindings and fuzzy completion
   if command -v fzf >/dev/null 2>&1; then
     # Use modern fzf --zsh integration if available
     if fzf --zsh >/dev/null 2>&1; then
       source <(fzf --zsh)
+    fi
   fi
 fi
 
