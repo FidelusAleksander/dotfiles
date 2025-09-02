@@ -1,6 +1,10 @@
 # Dotfiles Setup
 
-This repository contains configuration files for setting up a new MacBook. Follow the instructions below to get started.
+This repository contains configuration files for setting up development environments. It supports both local MacBook setup and GitHub Codespaces automatic installation.
+
+## GitHub Codespaces Setup
+
+This repository is configured to work automatically with GitHub Codespaces. You can enable this repository as your dotfiles repository in your [GitHub Codespaces settings](https://github.com/settings/codespaces)
 
 ## Prerequisites
 
