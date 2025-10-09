@@ -17,6 +17,7 @@ cask "visual-studio-code"
 cask "shottr"   # Screenshot utility
 cask "rectangle" # Window manager
 cask "scroll-reverser" # To allow for natural scrolling on trackpad, but not on mouse
+cask "blackhole-2ch" # allows applications to pass audio to other applications 
 
 
 # VS Code Extensions
