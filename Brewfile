@@ -1,6 +1,3 @@
-tap "homebrew/bundle"
-tap "spacelift-io/spacelift"
-
 # brew "mas" # Uncomment If I ever want to install apps from the Mac App Store
 
 brew "fzf" # Fuzzy finder
@@ -16,7 +13,6 @@ brew "pre-commit"
 brew "pyenv"
 brew "pinentry-mac"
 brew "rtk"
-brew "spacectl"
 brew "tenv" # Terraform/OpenTofu version manager
 
 cask "aldente" # Battery management
@@ -36,8 +32,6 @@ vscode "davidanson.vscode-markdownlint"
 vscode "yzhang.markdown-all-in-one"
 
 # GitHub & Actions
-vscode "github.copilot"
-vscode "github.copilot-chat"
 vscode "github.vscode-github-actions"
 vscode "github.vscode-pull-request-github"
 vscode "me-dutour-mathieu.vscode-github-actions"
@@ -49,8 +43,6 @@ vscode "redhat.vscode-yaml"
 vscode "ms-vscode-remote.remote-containers"
 vscode "hediet.vscode-drawio"
 vscode "ryanluker.vscode-coverage-gutters"
-vscode "SonarSource.sonarlint-vscode"
-vscode "janisdd.vscode-edit-csv"
 vscode "ms-azuretools.vscode-docker"
 
 # Python
