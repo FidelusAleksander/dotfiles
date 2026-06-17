@@ -35,7 +35,14 @@ This repository is configured to work automatically with GitHub Codespaces. You 
     brew bundle install
     ```
 
-3. **Symlink Configuration Files**: Create symbolic links for the configuration files in your home directory:
+3. **Apply macOS defaults**:
+
+    ```sh
+    cd ~/dotfiles
+    bash macos.sh
+    ```
+
+4. **Symlink Configuration Files**: Create symbolic links for the configuration files in your home directory:
 
 
     ```sh
