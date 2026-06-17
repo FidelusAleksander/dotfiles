@@ -49,15 +49,18 @@ This repository is configured to work automatically with GitHub Codespaces. You 
     bash macos.sh
     ```
 
-4. **Symlink Configuration Files**: Create symbolic links for the configuration files in your home directory:
-
+4. Install fzf
 
     ```sh
-    ln -s .zshrc ~/.zshrc
+    git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+    ~/.fzf/install --all --no-bash --no-fish
     ```
 
+5. **Symlink Configuration Files**: Create symbolic links for the configuration files in your home directory:
+
     ```sh
-    ln -s .p10k.zsh ~/.p10k.zsh
+    ln -s ~/dotfiles/.zshrc ~/.zshrc
+    ln -s ~/dotfiles/.p10k.zsh ~/.p10k.zsh
     ```
 
 ## Learn more
