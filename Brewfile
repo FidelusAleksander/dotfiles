@@ -1,4 +1,5 @@
 tap "homebrew/bundle"
+tap "spacelift-io/spacelift"
 
 # brew "mas" # Uncomment If I ever want to install apps from the Mac App Store
 
@@ -6,10 +7,17 @@ brew "fzf" # Fuzzy finder
 brew "gh" # GitHub CLI
 brew "git" # Git
 brew "uv" # Python version and package manager
-brew "tfenv" # Terraform version manager
-brew "gpg2" # GPG
+brew "act"
+brew "actionlint"
+brew "azure-cli"
 brew "gnupg" # GPG
+brew "hugo"
+brew "pre-commit"
+brew "pyenv"
 brew "pinentry-mac"
+brew "rtk"
+brew "spacectl"
+brew "tenv" # Terraform/OpenTofu version manager
 
 cask "aldente" # Battery management
 cask "stats" # System monitoring
