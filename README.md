@@ -14,18 +14,25 @@ This repository is configured to work automatically with GitHub Codespaces. You 
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
 
-2. **Install git**:
+2. **Install GitHub CLI**:
 
     ```sh
-    brew install git
+    brew install gh
     ```
+
+3. Login with GitHub ClI
+
+    ```sh
+    gh auth login
+    ```
+
 
 ## New Mac Setup Instructions
 
 1. **Clone the Repository**: Clone this repository to your home directory:
 
     ```sh
-    git clone git@github.com:FidelusAleksander/dotfiles.git ~/dotfiles
+    gh repo clone idelusAleksander/dotfiles ~/dotfiles
     ```
 
 2. **Install Brew packages**:
